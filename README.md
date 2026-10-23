@@ -46,13 +46,16 @@ The Docker build runs the test suite and fails if any test fails.
 
 ## pacs.008 schema validation
 
-The CBPR+ XSD is a licensed Swift MyStandards file, so it is **not** copied into this repo. `src/generators/pacs008/pacs008.test.ts` validates every country and direction with `xmllint` against the copy in the platform repo:
+`src/generators/pacs008/pacs008.test.ts` can validate every country and direction with `xmllint` against the CBPR+ `pacs.008.001.08.xsd`. That XSD is a licensed Swift MyStandards file, so it isn't committed. Provide it in either of two ways:
 
-```
-~/code/fullplatform/platform/services/paymentschemes/common/swift/src/main/resources/schemas/swift/cbprplus/03/pacs.008.001.08.xsd
+- **Default:** drop it into `schemas/pacs.008.001.08.xsd`. `*.xsd` files there are git-ignored and excluded from the Docker build.
+- **Elsewhere:** point `PACS008_XSD` at it:
+
+```bash
+PACS008_XSD=/path/to/pacs.008.001.08.xsd npm test
 ```
 
-Set `PACS008_XSD` to use a different path. If the file or `xmllint` isn't available (for example inside the Docker build), those tests are skipped.
+If the file or `xmllint` isn't available (for example inside the Docker build), the schema tests are skipped and every other test still runs.
 
 CBPR+ only allows `[0-9a-zA-Z/-?:().,'+ ]`, plus a few symbols, in names and addresses. So pacs.008 parties use **Latin-script personas**: accents are folded (German umlauts become ae/oe/ue), Cyrillic is transliterated, and Japanese and Chinese personas use romanised names and places. The same mode is available on the Persona tab as "Latin script (SWIFT-safe)".
 

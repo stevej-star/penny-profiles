@@ -3,3 +3,6 @@ dist
 *.tsbuildinfo
 .DS_Store
 .claude/settings.local.json
+
+# Licensed Swift schemas: keep local, never commit.
+schemas/*.xsd

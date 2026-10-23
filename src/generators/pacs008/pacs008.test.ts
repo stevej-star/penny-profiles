@@ -1,18 +1,17 @@
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { afterAll, describe, expect, it } from 'vitest';
 import { createRng } from '../../lib/rng';
 import { type ChargeBearer, type Direction, PACS008_COUNTRIES, generatePacs008 } from './pacs008';
 
 /**
- * The CBPR+ XSD is a licensed Swift MyStandards file, so it isn't bundled. Schema validation runs when
- * it's available locally (override with PACS008_XSD) and xmllint is installed; otherwise it is skipped.
+ * The CBPR+ XSD is a licensed Swift MyStandards file, so it isn't committed. Schema validation runs when
+ * the file is at PACS008_XSD, or by default at schemas/pacs.008.001.08.xsd, and xmllint is installed;
+ * otherwise it is skipped.
  */
-const XSD =
-  process.env.PACS008_XSD ??
-  `${process.env.HOME}/code/fullplatform/platform/services/paymentschemes/common/swift/src/main/resources/schemas/swift/cbprplus/03/pacs.008.001.08.xsd`;
+const XSD = process.env.PACS008_XSD || resolve(__dirname, '../../../schemas/pacs.008.001.08.xsd');
 const hasXmllint = (() => {
   try {
     execFileSync('xmllint', ['--version'], { stdio: 'ignore' });
