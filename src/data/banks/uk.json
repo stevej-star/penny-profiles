@@ -1,0 +1,19 @@
+[
+  { "id": "barclays", "name": "Barclays", "bic": "BUKBGB22", "ranges": [["200000", "209999"]] },
+  { "id": "hsbc", "name": "HSBC UK", "bic": "HBUKGB4B", "ranges": [["400000", "409999"]] },
+  { "id": "lloyds", "name": "Lloyds Bank", "bic": "LOYDGB2L", "ranges": [["300000", "309999"]] },
+  { "id": "natwest", "name": "NatWest", "bic": "NWBKGB2L", "ranges": [["500000", "509999"], ["560000", "569999"], ["600000", "609999"]] },
+  { "id": "rbs", "name": "Royal Bank of Scotland", "bic": "RBOSGB2L", "ranges": [["160000", "169999"], ["830000", "839999"]] },
+  { "id": "santander", "name": "Santander UK", "bic": "ABBYGB2L", "ranges": [["090000", "091999"]] },
+  { "id": "halifax", "name": "Halifax", "bic": "HLFXGB21", "ranges": [["110000", "119999"]] },
+  { "id": "bos", "name": "Bank of Scotland", "bic": "BOFSGB21", "ranges": [["120000", "129999"]] },
+  { "id": "nationwide", "name": "Nationwide Building Society", "bic": "NAIAGB21", "ranges": [["070000", "070999"]] },
+  { "id": "tsb", "name": "TSB", "bic": "TSBSGB2A", "ranges": [["770000", "779999"], ["870000", "879999"]] },
+  { "id": "virgin", "name": "Virgin Money (Clydesdale)", "bic": "CLYDGB2S", "ranges": [["820000", "829999"]] },
+  { "id": "coop", "name": "Co-operative Bank", "bic": "CPBKGB22", "ranges": [["089000", "089299"]] },
+  { "id": "coutts", "name": "Coutts", "bic": "COUTGB22", "ranges": [["180000", "189999"]] },
+  { "id": "starling", "name": "Starling Bank", "bic": "SRLGGB2L", "sortCodes": ["608371"] },
+  { "id": "monzo", "name": "Monzo", "bic": "MONZGB2L", "sortCodes": ["040004"] },
+  { "id": "revolut", "name": "Revolut", "bic": "REVOGB21", "sortCodes": ["040075"] },
+  { "id": "metro", "name": "Metro Bank", "bic": "MYMBGB2L", "sortCodes": ["230580"] }
+]

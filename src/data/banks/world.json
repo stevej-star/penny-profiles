@@ -1,0 +1,44 @@
+{
+  "AU": [
+    { "id": "cba", "name": "Commonwealth Bank", "localName": "Commonwealth Bank of Australia", "code": "06", "bic": "CTBAAU2S", "accountLength": 8 },
+    { "id": "westpac", "name": "Westpac", "localName": "Westpac Banking Corporation", "code": "03", "bic": "WPACAU2S", "accountLength": 6 },
+    { "id": "anz", "name": "ANZ", "localName": "Australia and New Zealand Banking Group", "code": "01", "bic": "ANZBAU3M", "accountLength": 9 },
+    { "id": "nab", "name": "NAB", "localName": "National Australia Bank", "code": "08", "bic": "NATAAU33", "accountLength": 9 },
+    { "id": "stgeorge", "name": "St.George Bank", "localName": "St.George Bank", "code": "11", "bic": "SGBLAU2S", "accountLength": 9 },
+    { "id": "macquarie", "name": "Macquarie Bank", "localName": "Macquarie Bank", "code": "18", "bic": "MACQAU2S", "accountLength": 9 },
+    { "id": "bendigo", "name": "Bendigo Bank", "localName": "Bendigo and Adelaide Bank", "code": "633", "bic": "BENDAU3B", "accountLength": 9 }
+  ],
+  "CA": [
+    { "id": "rbc", "name": "RBC Royal Bank", "localName": "RBC Royal Bank", "code": "003", "bic": "ROYCCAT2" },
+    { "id": "td", "name": "TD Canada Trust", "localName": "TD Canada Trust", "code": "004", "bic": "TDOMCATTTOR" },
+    { "id": "scotia", "name": "Scotiabank", "localName": "Scotiabank", "code": "002", "bic": "NOSCCATT" },
+    { "id": "bmo", "name": "BMO Bank of Montreal", "localName": "BMO Bank of Montreal", "code": "001", "bic": "BOFMCAM2" },
+    { "id": "cibc", "name": "CIBC", "localName": "CIBC", "code": "010", "bic": "CIBCCATT" },
+    { "id": "nbc", "name": "National Bank of Canada", "localName": "Banque Nationale du Canada", "code": "006", "bic": "BNDCCAMMINT" },
+    { "id": "desjardins", "name": "Desjardins", "localName": "Desjardins", "code": "815", "bic": "CCDQCAMM" }
+  ],
+  "JP": [
+    { "id": "mizuho", "name": "Mizuho Bank", "localName": "みずほ銀行", "code": "0001", "bic": "MHCBJPJT" },
+    { "id": "mufg", "name": "MUFG Bank", "localName": "三菱UFJ銀行", "code": "0005", "bic": "BOTKJPJT" },
+    { "id": "smbc", "name": "Sumitomo Mitsui Banking Corporation", "localName": "三井住友銀行", "code": "0009", "bic": "SMBCJPJT" },
+    { "id": "resona", "name": "Resona Bank", "localName": "りそな銀行", "code": "0010", "bic": "DIWAJPJT" },
+    { "id": "rakuten", "name": "Rakuten Bank", "localName": "楽天銀行", "code": "0036", "bic": "RAKTJPJT" },
+    { "id": "jpbank", "name": "Japan Post Bank", "localName": "ゆうちょ銀行", "code": "9900", "bic": "JPPSJPJ1" }
+  ],
+  "CN": [
+    { "id": "icbc", "name": "Industrial and Commercial Bank of China", "localName": "中国工商银行", "code": "102", "bic": "ICBKCNBJ", "bins": ["622202"], "cardLength": 19 },
+    { "id": "abc", "name": "Agricultural Bank of China", "localName": "中国农业银行", "code": "103", "bic": "ABOCCNBJ", "bins": ["622848"], "cardLength": 19 },
+    { "id": "boc", "name": "Bank of China", "localName": "中国银行", "code": "104", "bic": "BKCHCNBJ", "bins": ["621661"], "cardLength": 19 },
+    { "id": "ccb", "name": "China Construction Bank", "localName": "中国建设银行", "code": "105", "bic": "PCBCCNBJ", "bins": ["621700"], "cardLength": 19 },
+    { "id": "bocom", "name": "Bank of Communications", "localName": "交通银行", "code": "301", "bic": "COMMCNSH", "bins": ["622262"], "cardLength": 19 },
+    { "id": "cmb", "name": "China Merchants Bank", "localName": "招商银行", "code": "308", "bic": "CMBCCNBS", "bins": ["622588"], "cardLength": 16 }
+  ],
+  "RU": [
+    { "id": "sber", "name": "Sberbank", "localName": "ПАО Сбербанк", "code": "044525225", "corrAccount": "30101810400000000225", "bic": "SABRRUMM" },
+    { "id": "vtb", "name": "VTB Bank", "localName": "Банк ВТБ (ПАО)", "code": "044525187", "corrAccount": "30101810700000000187", "bic": "VTBRRUMM" },
+    { "id": "alfa", "name": "Alfa-Bank", "localName": "АО «Альфа-Банк»", "code": "044525593", "corrAccount": "30101810200000000593", "bic": "ALFARUMM" },
+    { "id": "gpb", "name": "Gazprombank", "localName": "Банк ГПБ (АО)", "code": "044525823", "corrAccount": "30101810200000000823", "bic": "GAZPRUMM" },
+    { "id": "tbank", "name": "T-Bank (Tinkoff)", "localName": "АО «ТБанк»", "code": "044525974", "corrAccount": "30101810145250000974", "bic": "TICSRUMM" },
+    { "id": "raif", "name": "Raiffeisenbank Russia", "localName": "АО «Райффайзенбанк»", "code": "044525700", "corrAccount": "30101810200000000700", "bic": "RZBMRUMM" }
+  ]
+}

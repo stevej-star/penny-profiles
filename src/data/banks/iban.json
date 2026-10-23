@@ -1,0 +1,96 @@
+{
+  "AT": [
+    { "name": "Erste Bank", "bic": "GIBAATWW", "bankCodes": ["20111"] },
+    { "name": "UniCredit Bank Austria", "bic": "BKAUATWW", "bankCodes": ["12000"] },
+    { "name": "Raiffeisenlandesbank NÖ-Wien", "bic": "RLNWATWW", "bankCodes": ["32000"] },
+    { "name": "BAWAG", "bic": "BAWAATWW", "bankCodes": ["14000"] }
+  ],
+  "BE": [
+    { "name": "BNP Paribas Fortis", "bic": "GEBABEBB", "bankCodes": ["001"] },
+    { "name": "KBC", "bic": "KREDBEBB", "bankCodes": ["734"] },
+    { "name": "Belfius", "bic": "GKCCBEBB", "bankCodes": ["068"] },
+    { "name": "ING Belgium", "bic": "BBRUBEBB", "bankCodes": ["310"] },
+    { "name": "Argenta", "bic": "ARSPBE22", "bankCodes": ["979"] }
+  ],
+  "CH": [
+    { "name": "UBS", "bic": "UBSWCHZH80A", "bankCodes": ["00230", "00235"] },
+    { "name": "Credit Suisse", "bic": "CRESCHZZ80A", "bankCodes": ["04835"] },
+    { "name": "PostFinance", "bic": "POFICHBEXXX", "bankCodes": ["09000"] },
+    { "name": "Zürcher Kantonalbank", "bic": "ZKBKCHZZ80A", "bankCodes": ["00700"] },
+    { "name": "Raiffeisen Schweiz", "bic": "RAIFCH22", "bankCodes": ["80808"] }
+  ],
+  "DE": [
+    { "name": "Deutsche Bank", "bic": "DEUTDEFFXXX", "bankCodes": ["10070000", "50070010", "20070000"] },
+    { "name": "Commerzbank", "bic": "COBADEFFXXX", "bankCodes": ["10040000", "50040000", "37040044"] },
+    { "name": "Postbank", "bic": "PBNKDEFFXXX", "bankCodes": ["10010010"] },
+    { "name": "ING-DiBa", "bic": "INGDDEFFXXX", "bankCodes": ["50010517"] },
+    { "name": "DKB", "bic": "BYLADEM1001", "bankCodes": ["12030000"] },
+    { "name": "N26", "bic": "NTSBDEB1XXX", "bankCodes": ["10011001"] },
+    { "name": "Berliner Sparkasse", "bic": "BELADEBEXXX", "bankCodes": ["10050000"] }
+  ],
+  "ES": [
+    { "name": "Banco Santander", "bic": "BSCHESMM", "bankCodes": ["0049"] },
+    { "name": "BBVA", "bic": "BBVAESMM", "bankCodes": ["0182"] },
+    { "name": "CaixaBank", "bic": "CAIXESBB", "bankCodes": ["2100"] },
+    { "name": "Banco Sabadell", "bic": "BSABESBB", "bankCodes": ["0081"] },
+    { "name": "Bankinter", "bic": "BKBKESMM", "bankCodes": ["0128"] }
+  ],
+  "FI": [
+    { "name": "Nordea", "bic": "NDEAFIHH", "bankCodes": ["1"] },
+    { "name": "OP", "bic": "OKOYFIHH", "bankCodes": ["5"] },
+    { "name": "Danske Bank", "bic": "DABAFIHH", "bankCodes": ["8"] },
+    { "name": "Aktia", "bic": "HELSFIHH", "bankCodes": ["405"] }
+  ],
+  "FR": [
+    { "name": "BNP Paribas", "bic": "BNPAFRPP", "bankCodes": ["30004"] },
+    { "name": "Société Générale", "bic": "SOGEFRPP", "bankCodes": ["30003"] },
+    { "name": "LCL", "bic": "CRLYFRPP", "bankCodes": ["30002"] },
+    { "name": "La Banque Postale", "bic": "PSSTFRPP", "bankCodes": ["20041"] },
+    { "name": "CIC", "bic": "CMCIFRPP", "bankCodes": ["30066"] },
+    { "name": "Crédit Mutuel", "bic": "CMCIFR2A", "bankCodes": ["10278"] }
+  ],
+  "IE": [
+    { "name": "AIB", "bic": "AIBKIE2D", "bankCodes": ["AIBK"], "branchPrefix": "93" },
+    { "name": "Bank of Ireland", "bic": "BOFIIE2D", "bankCodes": ["BOFI"], "branchPrefix": "90" },
+    { "name": "PTSB", "bic": "IPBSIE2D", "bankCodes": ["IPBS"], "branchPrefix": "99" }
+  ],
+  "IT": [
+    { "name": "Intesa Sanpaolo", "bic": "BCITITMM", "bankCodes": ["03069"] },
+    { "name": "UniCredit", "bic": "UNCRITMM", "bankCodes": ["02008"] },
+    { "name": "Banco BPM", "bic": "BAPPIT21", "bankCodes": ["05034"] },
+    { "name": "BNL", "bic": "BNLIITRR", "bankCodes": ["01005"] },
+    { "name": "Monte dei Paschi di Siena", "bic": "PASCITMM", "bankCodes": ["01030"] },
+    { "name": "BPER Banca", "bic": "BPMOIT22", "bankCodes": ["05387"] }
+  ],
+  "LU": [
+    { "name": "Spuerkeess (BCEE)", "bic": "BCEELULL", "bankCodes": ["001"] },
+    { "name": "Banque Internationale à Luxembourg", "bic": "BILLLULL", "bankCodes": ["002"] },
+    { "name": "BGL BNP Paribas", "bic": "BGLLLULL", "bankCodes": ["003"] },
+    { "name": "ING Luxembourg", "bic": "CELLLULL", "bankCodes": ["014"] }
+  ],
+  "NL": [
+    { "name": "ABN AMRO", "bic": "ABNANL2A", "bankCodes": ["ABNA"] },
+    { "name": "ING", "bic": "INGBNL2A", "bankCodes": ["INGB"] },
+    { "name": "Rabobank", "bic": "RABONL2U", "bankCodes": ["RABO"] },
+    { "name": "SNS", "bic": "SNSBNL2A", "bankCodes": ["SNSB"] },
+    { "name": "bunq", "bic": "BUNQNL2A", "bankCodes": ["BUNQ"] },
+    { "name": "Knab", "bic": "KNABNL2H", "bankCodes": ["KNAB"] },
+    { "name": "Triodos", "bic": "TRIONL2U", "bankCodes": ["TRIO"] }
+  ],
+  "NO": [
+    { "name": "DNB", "bic": "DNBANOKK", "bankCodes": ["1503", "1506", "1594"] }
+  ],
+  "PT": [
+    { "name": "Caixa Geral de Depósitos", "bic": "CGDIPTPL", "bankCodes": ["0035"] },
+    { "name": "Millennium BCP", "bic": "BCOMPTPL", "bankCodes": ["0033"] },
+    { "name": "Novo Banco", "bic": "BESCPTPL", "bankCodes": ["0007"] },
+    { "name": "Santander Totta", "bic": "TOTAPTPL", "bankCodes": ["0018"] },
+    { "name": "BPI", "bic": "BBPIPTPL", "bankCodes": ["0010"] }
+  ],
+  "SE": [
+    { "name": "SEB", "bic": "ESSESESS", "bankCodes": ["500"] },
+    { "name": "Handelsbanken", "bic": "HANDSESS", "bankCodes": ["600"] },
+    { "name": "Swedbank", "bic": "SWEDSESS", "bankCodes": ["800"] },
+    { "name": "Nordea", "bic": "NDEASESS", "bankCodes": ["300"] }
+  ]
+}

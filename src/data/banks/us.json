@@ -1,0 +1,45 @@
+[
+  { "id": "chase", "name": "JPMorgan Chase", "bic": "CHASUS33", "accountLength": [9, 12],
+    "routingNumbers": [
+      { "number": "021000021", "region": "New York / wires" }, { "number": "322271627", "region": "California" },
+      { "number": "071000013", "region": "Illinois" }, { "number": "111000614", "region": "Texas" }, { "number": "044000037", "region": "Ohio" }
+    ] },
+  { "id": "bofa", "name": "Bank of America", "bic": "BOFAUS3N", "accountLength": [12, 12],
+    "routingNumbers": [
+      { "number": "026009593", "region": "Wires" }, { "number": "121000358", "region": "California" },
+      { "number": "011000138", "region": "Massachusetts" }, { "number": "021000322", "region": "New York" },
+      { "number": "111000025", "region": "Texas" }, { "number": "051000017", "region": "Virginia" }
+    ] },
+  { "id": "wells", "name": "Wells Fargo", "bic": "WFBIUS6S", "accountLength": [10, 10],
+    "routingNumbers": [
+      { "number": "121000248", "region": "California / wires" }, { "number": "091000019", "region": "Minnesota" },
+      { "number": "102000076", "region": "Colorado" }
+    ] },
+  { "id": "citi", "name": "Citibank", "bic": "CITIUS33", "accountLength": [9, 10],
+    "routingNumbers": [
+      { "number": "021000089", "region": "New York / wires" }, { "number": "322271724", "region": "California" },
+      { "number": "271070801", "region": "Illinois" }
+    ] },
+  { "id": "usbank", "name": "U.S. Bank", "bic": "USBKUS44IMT", "accountLength": [12, 12],
+    "routingNumbers": [
+      { "number": "091000022", "region": "Minnesota / wires" }, { "number": "122235821", "region": "California" },
+      { "number": "042000013", "region": "Ohio" }, { "number": "075000022", "region": "Wisconsin" }
+    ] },
+  { "id": "pnc", "name": "PNC Bank", "bic": "PNCCUS33", "accountLength": [10, 10],
+    "routingNumbers": [ { "number": "043000096", "region": "Pennsylvania / wires" }, { "number": "031000053", "region": "Philadelphia" } ] },
+  { "id": "capitalone", "name": "Capital One", "bic": "HIBKUS44", "accountLength": [10, 10],
+    "routingNumbers": [
+      { "number": "051405515", "region": "Virginia" }, { "number": "065000090", "region": "Louisiana" },
+      { "number": "031176110", "region": "Capital One 360" }
+    ] },
+  { "id": "td", "name": "TD Bank", "bic": "NRTHUS33", "accountLength": [10, 10],
+    "routingNumbers": [ { "number": "031101266", "region": "NJ / PA / DE" }, { "number": "011103093", "region": "Maine" } ] },
+  { "id": "truist", "name": "Truist", "bic": "BRBTUS33", "accountLength": [13, 13],
+    "routingNumbers": [ { "number": "061000104", "region": "Georgia" }, { "number": "053101121", "region": "North Carolina" } ] },
+  { "id": "goldman", "name": "Goldman Sachs Bank USA (Marcus)", "accountLength": [10, 10],
+    "routingNumbers": [ { "number": "124085244", "region": "Nationwide" } ] },
+  { "id": "ally", "name": "Ally Bank", "accountLength": [10, 10],
+    "routingNumbers": [ { "number": "124003116", "region": "Nationwide" } ] },
+  { "id": "navyfed", "name": "Navy Federal Credit Union", "accountLength": [10, 10],
+    "routingNumbers": [ { "number": "256074974", "region": "Nationwide" } ] }
+]
